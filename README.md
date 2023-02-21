@@ -12,9 +12,10 @@ This is an online Tic Tac Toe Online Game
 - React
 
 
-## Appendix
+## About
 
-Any additional information goes here
+This is a  Tic Tac Toe Online game created with React and Node as Frontend/Backend,
+MongoDB as database and makes use of Stream Chat to comunicate users between themselves 
 
 
 ## Installation
