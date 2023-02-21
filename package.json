@@ -1,0 +1,26 @@
+{
+  "homepage": "http://S4NCHOPANZ4.github.io/sus",
+  "name": "from0---copy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S4NCHOPANZ4/sus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S4NCHOPANZ4/sus/issues"
+  },
+  "homepage": "https://github.com/S4NCHOPANZ4/sus#readme",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
