@@ -1,0 +1,191 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #76a2ff;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+.login,
+.signUp {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.login input,
+.signUp input {
+  margin: 10px;
+  padding: 10px;
+  border: #ffffff00;
+  border-radius: 4px;
+  height: 30px;
+ 
+}
+.register_input{
+  width: 400px;
+
+}
+
+input:focus{
+  border: #ffffff00;
+  background-color: #e1e1e1;
+  outline: none;
+}
+
+
+.login label,
+.signUp label {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 10px;
+  
+}
+
+.board {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(252, 252, 252);
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+}
+
+.square {
+  flex: 33%;
+  height: 100%;
+  border: 1px solid black;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 30px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.square:active {
+  background-color: lightgray;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+.joinGame input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 400px;
+  height: 30px;
+  width: 80%;
+  text-align:center;
+  font-size: 1.5em;
+  
+}
+.joinGame button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 220px;
+  height: 51px;
+  cursor: pointer;
+}
+.RegisterForm{
+  display: flex;
+  flex-direction: column;
+  background-color:  #bcd1ff8a;
+  padding: 30px;
+  border-radius: 10px;
+}
+.join{
+  width: 800px;
+  align-items: center;
+
+}
+.join__button{
+  margin-top: 30px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+.nav__bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+button{
+  background: linear-gradient(to right,#196BCA ,#6433E0);
+  background-color: #196BCA;
+  color: #fff;
+  font-family: Trebuchet MS;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  text-decoration: none;
+  padding: 14px 15px;
+  border: 0px solid #000;
+  border-radius: 10px;
+  display: inline-block;
+}
+button:hover{
+  background: linear-gradient(to right,#09284b ,#21114a);
+  background-color: #0e35628c;
+ }
+.nav{
+  width: 150px;
+}
+.logout{
+  width: 30px;
+}
+.general{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.register__title{
+  font-size: 50px;
+  color: #ffffff;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-shadow: 0px 0px 0 rgb(225,225,225),
+               0px 1px 0 rgb(208,208,208),
+               0px 2px 0 rgb(192,192,192),
+               0px 3px 0 rgb(176,176,176),
+               0px 4px 0 rgb(160,160,160),
+               0px 5px 0 rgb(143,143,143),
+               0px 6px 0 rgb(127,127,127),
+               0px 7px  0 rgb(111,111,111),
+               0px 8px 7px rgba(0,0,0,0.44),
+               0px 8px 1px rgba(0,0,0,0.5),
+               0px 0px 7px rgba(0,0,0,.2);
+}
+.waiter{
+  font-size: 40px;
+
+}
+.joinGame{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
