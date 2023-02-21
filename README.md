@@ -1,8 +1,10 @@
 
 # Tik Tac Toe
 
-This is an online Tic Tac Toe game 
-Tools
+This is an online Tic Tac Toe Online Game
+
+
+## Tools
 
 - Nodejs
 - Stream Chat
